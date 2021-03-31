@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./style.css" />
 
     <link
@@ -73,14 +80,93 @@
     </section>
 
     <section id="gallery">
-      <img
-        src="https://lh3.googleusercontent.com/TtZYK1eJq0aCgkX8eSKAqAS8sRUqV5xWqWGpgeL5r5pP5zINqQNerZWxAe8srj3IKuYqHGG86HWJwv2dSwAH9tpYiq7ImBvpSPdKXtPp1c5NN7MI-uNnAVEdzq-Lvu8bxj0YUdhPYx58brKoKBnV3PKWcbZ1bSBL_-kg9-0zDJB8xWDLUBuCnHx_FQqrlM9SbWg9BCYG9XuoM2TnUDz8ynlaHmvvh8KBV2Pr6e3sJ0a5EjJ9-NodBERqEKaRavVD3vcfPHQ-iJ2S20ANivphtCjTh_3XeejMFcp4frjP_rTk_G95V4GDF3qPl1grrhRGdpNS5-Lo0bv4ozv3nndXdguI0Qh2LwADCfVWeT0wmIu2r8_ySM8zWi96Ok4wwW1jRaqtY9r4wLVjpmTzAgwsqU6zmyHn60aT9YXfKTtnRJ65v1EYcHwEXh90v5vq_cayOfCKnF9ytr7rofr-vbyrc7xfPdApbR7ibHhb9ea6S9p5BnoT10prC0ATGK8Ytf9ouU9XW-fkBUbfMaKRO7GtbXq8s0LQCPk49bG15b4y6YrXMuUItjdEUI_unfPFQSdDNDD6VsTtljppXZRFcNBXxzXDo8ev7Ct_vstvJM04uO9V9S4-OygjxXxh681yuHwfEiPTW7GuTiryDjxqvswx6Axg43Obj7qzta4TJXNxt6YVVGv7mxXSE9R4q-fXoZL1FQBi4vhKhOf7TR_02QNcFJw=w1320-h990-no?authuser=0"
-        alt="ron1"
-      />
-      <img
-        src="https://lh3.googleusercontent.com/EyQ6TnX8Hnv1eFGVtq8XqfI-PTP_K-XN1wU8fcjZ1VUM1V3x7mKzHIuwPNgk3ruAfGyEwshqQFnpnw-8JdZ3bCkXC7opuk1njv3wG8Aay8hfMq8I2RNBnYdhi-Izzsbdhl9DljWoaEDnQYd9ZXHaAfSVLB1YTq2HeSZp9VRjvQSl7w6l2IO5VDeB8A5nzO07_Qp4-EaGDjGUD7Xxh6qzCBhAy9mxgTmxDMvGAKYe1csZdHNhjUlVzi_3-gZHf901K-zdhdLf6cVLZ7seRX5JNecKeQ9WMwT52z0wVusGMiwvqlGqgaDiDoMpaZVuopp9019bS4VdqwGr9ciJf7i1sCWZcQ0kL7lZbF8H1_nON6OOYIq4ib7f08uznE2Fdg7NE1u8Vsp8L_mE-ewbXS4CEK8fq4RXHN-tDi076erzHwuTHH1Cru2iAgSfE9oYkRfKQLNR19I3uc1H1WuPqfZap7PipMMWbg8rD42k_KVZ6l_4mIDjWM3V1KyGNJl52k78lFT181PYJo8T9GbI4fYI_S1UftZmG1vE5CGDHwGIomBbwpkR6LmOVuGqePemmD6FlrxUtCorlMzSJlTKGcPzCGbfu2zmKo8kwHbiY_Jzc5xd7lmCEDo7lKFOD0cHXRw8Dp2ED2YZbaVV6b1UpCJnYwlAdNBXaJOhiYfR1tBwQVG8YBrHMmbIBF2R09s0TWhmPdV1QGLHtC0LdW4mtZUiFQU=w1320-h990-no?authuser=0"
-        alt="ron2"
-      />
+      <h1 class="section-title">PHOTOS</h1>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://lh3.googleusercontent.com/TtZYK1eJq0aCgkX8eSKAqAS8sRUqV5xWqWGpgeL5r5pP5zINqQNerZWxAe8srj3IKuYqHGG86HWJwv2dSwAH9tpYiq7ImBvpSPdKXtPp1c5NN7MI-uNnAVEdzq-Lvu8bxj0YUdhPYx58brKoKBnV3PKWcbZ1bSBL_-kg9-0zDJB8xWDLUBuCnHx_FQqrlM9SbWg9BCYG9XuoM2TnUDz8ynlaHmvvh8KBV2Pr6e3sJ0a5EjJ9-NodBERqEKaRavVD3vcfPHQ-iJ2S20ANivphtCjTh_3XeejMFcp4frjP_rTk_G95V4GDF3qPl1grrhRGdpNS5-Lo0bv4ozv3nndXdguI0Qh2LwADCfVWeT0wmIu2r8_ySM8zWi96Ok4wwW1jRaqtY9r4wLVjpmTzAgwsqU6zmyHn60aT9YXfKTtnRJ65v1EYcHwEXh90v5vq_cayOfCKnF9ytr7rofr-vbyrc7xfPdApbR7ibHhb9ea6S9p5BnoT10prC0ATGK8Ytf9ouU9XW-fkBUbfMaKRO7GtbXq8s0LQCPk49bG15b4y6YrXMuUItjdEUI_unfPFQSdDNDD6VsTtljppXZRFcNBXxzXDo8ev7Ct_vstvJM04uO9V9S4-OygjxXxh681yuHwfEiPTW7GuTiryDjxqvswx6Axg43Obj7qzta4TJXNxt6YVVGv7mxXSE9R4q-fXoZL1FQBi4vhKhOf7TR_02QNcFJw=w1320-h990-no?authuser=0"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://lh3.googleusercontent.com/EyQ6TnX8Hnv1eFGVtq8XqfI-PTP_K-XN1wU8fcjZ1VUM1V3x7mKzHIuwPNgk3ruAfGyEwshqQFnpnw-8JdZ3bCkXC7opuk1njv3wG8Aay8hfMq8I2RNBnYdhi-Izzsbdhl9DljWoaEDnQYd9ZXHaAfSVLB1YTq2HeSZp9VRjvQSl7w6l2IO5VDeB8A5nzO07_Qp4-EaGDjGUD7Xxh6qzCBhAy9mxgTmxDMvGAKYe1csZdHNhjUlVzi_3-gZHf901K-zdhdLf6cVLZ7seRX5JNecKeQ9WMwT52z0wVusGMiwvqlGqgaDiDoMpaZVuopp9019bS4VdqwGr9ciJf7i1sCWZcQ0kL7lZbF8H1_nON6OOYIq4ib7f08uznE2Fdg7NE1u8Vsp8L_mE-ewbXS4CEK8fq4RXHN-tDi076erzHwuTHH1Cru2iAgSfE9oYkRfKQLNR19I3uc1H1WuPqfZap7PipMMWbg8rD42k_KVZ6l_4mIDjWM3V1KyGNJl52k78lFT181PYJo8T9GbI4fYI_S1UftZmG1vE5CGDHwGIomBbwpkR6LmOVuGqePemmD6FlrxUtCorlMzSJlTKGcPzCGbfu2zmKo8kwHbiY_Jzc5xd7lmCEDo7lKFOD0cHXRw8Dp2ED2YZbaVV6b1UpCJnYwlAdNBXaJOhiYfR1tBwQVG8YBrHMmbIBF2R09s0TWhmPdV1QGLHtC0LdW4mtZUiFQU=w1320-h990-no?authuser=0"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://lh3.googleusercontent.com/ox2az86AilqYb1NLcYjp6L8yK19Md78T_oSRE4qCviUqmBc7BiLLYKtuLVctsTjjHgIX3s5SSU4STwf99cMFjsFTkqvKbg1nV4QgkbA22XreYHL8k0wfc8yaIQJe8bpHsjOJnfUrlqB07Y8v4AFhzQsM_qiJompY6zURAvqoLUH1oVDAJ3-jXQQXGEksWEHvIav_V6970skc7Ib7390T2HzVR460cst23u3LXBIqFkdwPtHFBa6NRJ_ltAlOW1P2b6zVS6adznWKRK9OjKx1HcK6GfpXW3Ml7qE5zewNo3LQIAMrLE1eYoPxpUBjsEi_ttSai9ZiNQqBnXGuDN2Mw-WQAsOPfzN14TzD-lnk5CXrLyWCXgICOa85H8_qjvVi71pzqcldiGPXVMIlzzxrwITNkbvUS8pCT5XO812VuvET54j8_Rgp9tu8m4GTOwmFSvcfsDWh0zpnjuHRpbXafEzui0bup2OEaM96NKpYE8qk65WqshLikC0u61WtF4XzRDJLDvNegZYo173BxAoe_L0yAdpelE4Bhwch9P9uFO7BAi2zlidLeduZrPwY095RHxHdDzFZwSc7WX451eZIo26HIngRyqghPCeH13h7A78X-PFikDzth3raEufsoywwybxSZeTtwBqKa5Lk9a_u8Gd-D_jwg8_UWK8nm6zI934DQVAWmD9WQWBSuRLVzlqGzzZ4YHArqs0z04co6M8mMhi3=w1320-h990-no?authuser=0"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
+
+    <section id="destinations">
+      <h1 class="section-title">DESTINATIONS</h1>
+      <img src="./images/map.png" alt="map" />
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

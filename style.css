@@ -9,18 +9,14 @@ body {
   background-image: url("images/header.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.title {
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 20%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title h1 {
   font-size: 5rem;
+  margin: 2rem;
 }
 
 .section-title {
@@ -31,7 +27,10 @@ body {
 }
 
 .languages {
+  position: absolute;
   margin: 0;
+  left: 0;
+  top: 0;
 }
 
 .languages h1 {
@@ -39,10 +38,18 @@ body {
 }
 
 /********************************/
+#hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
 
 .hobby {
-  padding: 0 20rem;
   margin-bottom: 4rem;
+  width: fit-content;
+  min-width: 50rem;
+  position: relative;
 }
 
 .hobby .image {
@@ -52,12 +59,13 @@ body {
 .hobby .text {
   display: inline-block;
   position: absolute;
-  margin-top: 2rem;
+  top: 1rem;
+  left: 35%;
 }
 
 .hobby .circle {
-  height: 180px;
-  width: 180px;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
   margin: 0 3rem;
   position: relative;
@@ -101,10 +109,22 @@ body {
   transform: translateY(-50%);
 }
 
+/*******************************************************/
+
 #gallery {
-  padding: 3rem;
+  padding: 2rem 20rem;
+  background-color: rgb(247, 247, 247);
+}
+/*******************************************************/
+
+#destinations {
+  padding: 2rem 0 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#gallery img {
-  width: 49%;
+#destinations img {
+  width: 80%;
+  border-radius: 40%;
 }
